@@ -5,6 +5,9 @@ description = "Registro horario de distintos paises de America del Sur"
 authors = ["Jean Victor Rada"]
 license = "Whytee Products"
 
+[tool.poetry.scripts]
+latimes = 'latimes.__main__:main'
+
 [tool.poetry.dependencies]
 python = "^3.9"
 click = "^7.1.2"
